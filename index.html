@@ -11,6 +11,10 @@
     <!-- tailwind css -->
          <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+         
+
 </head>
 <body>
     <header>
@@ -46,9 +50,131 @@
 
     </header>
 
-    <main>
+    <main class="bg-[#f5fff6]">
 
-        
+        <section class="Cards-section pt-[24px]">
+            <div class="all-cards grid grid-cols-3 gap-6">
+                <div  class="w-[350px] h-[300px] bg-white rounded-[12px] p-[32px] gap-[11px] shadow-xs">
+                   <div class="flex justify-between items-center">
+                     <div class="bg-[#FFE3E2] w-[60px] h-[60px] flex items-center justify-center rounded-[16px]" >
+                        <img class="w-[32px] rounded-[10px]" src="./assets/emergency.png" alt="" srcset="">
+                     </div>
+                   
+                   <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M442.9 144C415.6 144 389.9 157.1 373.9 179.2L339.5 226.8C335 233 327.8 236.7 320.1 236.7C312.4 236.7 305.2 233 300.7 226.8L266.3 179.2C250.3 157.1 224.6 144 197.3 144C150.3 144 112.2 182.1 112.2 229.1C112.2 279 144.2 327.5 180.3 371.4C221.4 421.4 271.7 465.4 306.2 491.7C309.4 494.1 314.1 495.9 320.2 495.9C326.3 495.9 331 494.1 334.2 491.7C368.7 465.4 419 421.3 460.1 371.4C496.3 327.5 528.2 279 528.2 229.1C528.2 182.1 490.1 144 443.1 144zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 297.7 533.1 358 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.8 539.2 335.6 543.9 320 543.9C304.4 543.9 289.2 539.2 276.9 529.8C240.4 502 187.2 455.5 143.1 402C106.9 358.1 64 297.7 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"/></svg>
+                   </div>
+
+                   <h1 class="font-bold text-xl">National Emergency Number</h1>
+                   <p class="text-[#5C5C5C]">National Emergency</p>
+                   <p class="font-bold text-2xl mt-[20px]">999</p>
+                   <p class="text-[#5C5C5C] bg-[#F2F2F2] py-[6px] px-[16px] w-[53px] h-[37px] rounded-[16px]">All</p>
+
+                   <button class="mt-[20px] border-1 rounded-[8px] w-[140px] h-[40px]" >Copy</button>
+                   <button class="bg-[#00A63E] text-white w-[140px] h-[40px] rounded-[8px]">Call</button>
+
+                </div>
+
+                <div  class="w-[350px] h-[300px] bg-white rounded-[12px] p-[32px] gap-[11px] shadow-xs">
+                   <div class="flex justify-between items-center">
+                     <div class="bg-[#DFEFFF] w-[60px] h-[60px] flex items-center justify-center rounded-[16px]" >
+                        <img class="w-[32px] rounded-[10px]" src="./assets/police.png" alt="" srcset="">
+                     </div>
+                   
+                   <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M442.9 144C415.6 144 389.9 157.1 373.9 179.2L339.5 226.8C335 233 327.8 236.7 320.1 236.7C312.4 236.7 305.2 233 300.7 226.8L266.3 179.2C250.3 157.1 224.6 144 197.3 144C150.3 144 112.2 182.1 112.2 229.1C112.2 279 144.2 327.5 180.3 371.4C221.4 421.4 271.7 465.4 306.2 491.7C309.4 494.1 314.1 495.9 320.2 495.9C326.3 495.9 331 494.1 334.2 491.7C368.7 465.4 419 421.3 460.1 371.4C496.3 327.5 528.2 279 528.2 229.1C528.2 182.1 490.1 144 443.1 144zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 297.7 533.1 358 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.8 539.2 335.6 543.9 320 543.9C304.4 543.9 289.2 539.2 276.9 529.8C240.4 502 187.2 455.5 143.1 402C106.9 358.1 64 297.7 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"/></svg>
+                   </div>
+
+                   <h1 class="font-bold text-xl">Police Helpline Number</h1>
+                   <p class="text-[#5C5C5C]">Police</p>
+                   <p class="font-bold text-2xl mt-[20px]">999</p>
+                   <p class="text-[#5C5C5C] bg-[#F2F2F2] py-[6px] px-[16px] w-[73px] h-[37px] rounded-[16px]">Police</p>
+
+                   <button class="mt-[20px] border-1 rounded-[8px] w-[140px] h-[40px]" >Copy</button>
+                   <button class="bg-[#00A63E] text-white w-[140px] h-[40px] rounded-[8px]">Call</button>
+
+                </div>
+
+                <div  class="w-[350px] h-[300px] bg-white rounded-[12px] p-[32px] gap-[11px] shadow-xs">
+                   <div class="flex justify-between items-center">
+                     <div class="bg-[#FFE3E2] w-[60px] h-[60px] flex items-center justify-center rounded-[16px]" >
+                        <img class="w-[32px] rounded-[10px]" src="./assets/fire-service.png" alt="" srcset="">
+                     </div>
+                   
+                   <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M442.9 144C415.6 144 389.9 157.1 373.9 179.2L339.5 226.8C335 233 327.8 236.7 320.1 236.7C312.4 236.7 305.2 233 300.7 226.8L266.3 179.2C250.3 157.1 224.6 144 197.3 144C150.3 144 112.2 182.1 112.2 229.1C112.2 279 144.2 327.5 180.3 371.4C221.4 421.4 271.7 465.4 306.2 491.7C309.4 494.1 314.1 495.9 320.2 495.9C326.3 495.9 331 494.1 334.2 491.7C368.7 465.4 419 421.3 460.1 371.4C496.3 327.5 528.2 279 528.2 229.1C528.2 182.1 490.1 144 443.1 144zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 297.7 533.1 358 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.8 539.2 335.6 543.9 320 543.9C304.4 543.9 289.2 539.2 276.9 529.8C240.4 502 187.2 455.5 143.1 402C106.9 358.1 64 297.7 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"/></svg>
+                   </div>
+
+                   <h1 class="font-bold text-xl">Fire Service Number</h1>
+                   <p class="text-[#5C5C5C]">Fire Service</p>
+                   <p class="font-bold text-2xl mt-[20px]">999</p>
+                   <p class="text-[#5C5C5C] bg-[#F2F2F2] py-[6px] px-[16px] w-[53px] h-[37px] rounded-[16px]">Fire</p>
+
+                   <button class="mt-[20px] border-1 rounded-[8px] w-[140px] h-[40px]" >Copy</button>
+                   <button class="bg-[#00A63E] text-white w-[140px] h-[40px] rounded-[8px]">Call</button>
+
+                </div>
+
+                <div  class="w-[350px] h-[300px] bg-white rounded-[12px] p-[32px] gap-[11px] shadow-xs">
+                   <div class="flex justify-between items-center">
+                     <div class="bg-[#FFE3E2] w-[60px] h-[60px] flex items-center justify-center rounded-[16px]" >
+                        <img class="w-[32px] rounded-[10px]" src="./assets/ambulance.png" alt="" srcset="">
+                     </div>
+                   
+                   <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M442.9 144C415.6 144 389.9 157.1 373.9 179.2L339.5 226.8C335 233 327.8 236.7 320.1 236.7C312.4 236.7 305.2 233 300.7 226.8L266.3 179.2C250.3 157.1 224.6 144 197.3 144C150.3 144 112.2 182.1 112.2 229.1C112.2 279 144.2 327.5 180.3 371.4C221.4 421.4 271.7 465.4 306.2 491.7C309.4 494.1 314.1 495.9 320.2 495.9C326.3 495.9 331 494.1 334.2 491.7C368.7 465.4 419 421.3 460.1 371.4C496.3 327.5 528.2 279 528.2 229.1C528.2 182.1 490.1 144 443.1 144zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 297.7 533.1 358 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.8 539.2 335.6 543.9 320 543.9C304.4 543.9 289.2 539.2 276.9 529.8C240.4 502 187.2 455.5 143.1 402C106.9 358.1 64 297.7 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"/></svg>
+                   </div>
+
+                   <h1 class="font-bold text-xl">Ambulance Service</h1>
+                   <p class="text-[#5C5C5C]">Ambulance</p>
+                   <p class="font-bold text-2xl mt-[20px]">1994-999999</p>
+                   <p class="text-[#5C5C5C] bg-[#F2F2F2] py-[6px] px-[16px] w-[77px] h-[37px] rounded-[16px]">Health</p>
+
+                   <button class="mt-[20px] border-1 rounded-[8px] w-[140px] h-[40px]" >Copy</button>
+                   <button class="bg-[#00A63E] text-white w-[140px] h-[40px] rounded-[8px]">Call</button>
+
+                </div>
+
+                <div  class="w-[350px] h-[300px] bg-white rounded-[12px] p-[32px] gap-[11px] shadow-xs">
+                   <div class="flex justify-between items-center">
+                     <div class="bg-[#FFE3E2] w-[60px] h-[60px] flex items-center justify-center rounded-[16px]" >
+                        <img class="w-[32px] rounded-[10px]" src="./assets/emergency.png" alt="" srcset="">
+                     </div>
+                   
+                   <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M442.9 144C415.6 144 389.9 157.1 373.9 179.2L339.5 226.8C335 233 327.8 236.7 320.1 236.7C312.4 236.7 305.2 233 300.7 226.8L266.3 179.2C250.3 157.1 224.6 144 197.3 144C150.3 144 112.2 182.1 112.2 229.1C112.2 279 144.2 327.5 180.3 371.4C221.4 421.4 271.7 465.4 306.2 491.7C309.4 494.1 314.1 495.9 320.2 495.9C326.3 495.9 331 494.1 334.2 491.7C368.7 465.4 419 421.3 460.1 371.4C496.3 327.5 528.2 279 528.2 229.1C528.2 182.1 490.1 144 443.1 144zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 297.7 533.1 358 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.8 539.2 335.6 543.9 320 543.9C304.4 543.9 289.2 539.2 276.9 529.8C240.4 502 187.2 455.5 143.1 402C106.9 358.1 64 297.7 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"/></svg>
+                   </div>
+
+                   <h1 class="font-bold text-xl">Woman & Child Helpline</h1>
+                   <p class="text-[#5C5C5C]">Woman & Child Helpline</p>
+                   <p class="font-bold text-2xl mt-[20px]">109</p>
+                   <p class="text-[#5C5C5C] bg-[#F2F2F2] py-[6px] px-[16px] w-[60px] h-[37px] rounded-[16px]">Help</p>
+
+                   <button class="mt-[20px] border-1 rounded-[8px] w-[140px] h-[40px]" >Copy</button>
+                   <button class="bg-[#00A63E] text-white w-[140px] h-[40px] rounded-[8px]">Call</button>
+
+                </div>
+
+                <div  class="w-[350px] h-[300px] bg-white rounded-[12px] p-[32px] gap-[11px] shadow-xs">
+                   <div class="flex justify-between items-center">
+                     <div class="bg-[#FFE3E2] w-[60px] h-[60px] flex items-center justify-center rounded-[16px]" >
+                        <img class="w-[32px] rounded-[10px]" src="./assets/emergency.png" alt="" srcset="">
+                     </div>
+                   
+                   <svg class="w-[24px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M442.9 144C415.6 144 389.9 157.1 373.9 179.2L339.5 226.8C335 233 327.8 236.7 320.1 236.7C312.4 236.7 305.2 233 300.7 226.8L266.3 179.2C250.3 157.1 224.6 144 197.3 144C150.3 144 112.2 182.1 112.2 229.1C112.2 279 144.2 327.5 180.3 371.4C221.4 421.4 271.7 465.4 306.2 491.7C309.4 494.1 314.1 495.9 320.2 495.9C326.3 495.9 331 494.1 334.2 491.7C368.7 465.4 419 421.3 460.1 371.4C496.3 327.5 528.2 279 528.2 229.1C528.2 182.1 490.1 144 443.1 144zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 297.7 533.1 358 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.8 539.2 335.6 543.9 320 543.9C304.4 543.9 289.2 539.2 276.9 529.8C240.4 502 187.2 455.5 143.1 402C106.9 358.1 64 297.7 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"/></svg>
+                   </div>
+
+                   <h1 class="font-bold text-xl">Anti-Corruption Helpline</h1>
+                   <p class="text-[#5C5C5C]">Anti-Corruption</p>
+                   <p class="font-bold text-2xl mt-[20px]">106</p>
+                   <p class="text-[#5C5C5C] bg-[#F2F2F2] py-[6px] px-[16px] w-[60px] h-[37px] rounded-[16px]">Govt.</p>
+
+                   <button class="mt-[20px] border-1 rounded-[8px] w-[140px] h-[40px]" >Copy</button>
+                   <button class="bg-[#00A63E] text-white w-[140px] h-[40px] rounded-[8px]">Call</button>
+
+                </div>
+
+
+            </div>
+            <div>
+
+            </div>
+
+        </section>
 
     </main>
 </body>
